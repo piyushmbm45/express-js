@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <%- include('../partials/head.ejs'); %>
-    <title>
-        <%= title %>
-    </title>
+        <title>
+            <%= title %>
+        </title>
 </head>
+
 <body>
     <!-- in html file we same code for footer header, nav bar to remove this -->
     <%- include('../partials/nav.ejs'); %>
-    <h1>Hi Guys we are learning Express.js</h1>
-    <h2>In this we are sending html file to route server by using get method</h2>
-    <a href="/download">Download File</a>
+        <div class="container">
+            <h1>Hi Guys we are learning Express.js</h1>
+            <h2>In this we are sending html file to route server by using get method</h2>
+            <a href="/download">Download File</a>
+        </div>
+
 </body>
+
 </html>
